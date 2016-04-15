@@ -124,7 +124,7 @@ module.exports = (function (root) {
 
   $.fn.val = function (val) {
     return typeof val === 'undefined'
-      ? this.value
+      ? this[0].value
       : this.forEach(function (node) { node.value = val; });
   };
 
