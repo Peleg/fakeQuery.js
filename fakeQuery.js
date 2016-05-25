@@ -6,6 +6,8 @@
  * DateRangePicker
  */
 
+var CustomEvent = require('custom-event');
+
 module.exports = (function (root) {
 
   'use strict';
